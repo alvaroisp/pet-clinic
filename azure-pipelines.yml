@@ -47,9 +47,9 @@ stages:
       - task: SonarCloudPrepare@1
         inputs:
           SonarCloud: 'Sonarcloud'
-          organization: 'devsecops-usach-v2'
+          organization: 'aisandoval'
           projectKey: 'DevSecOps-USACH-v2_pet-clinic'
-          projectName: 'pet-clinic'
+          projectName: 'mipetclinic'
         displayName: 'Preparing Sonarqube Environment'
     
       - task: Gradle@3
